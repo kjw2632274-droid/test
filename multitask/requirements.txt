@@ -1,0 +1,15 @@
+# KoBART 파인튜닝에 필요한 패키지
+
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece>=0.1.99
+accelerate>=0.20.0
+datasets>=2.12.0
+tqdm>=4.65.0
+pyyaml>=6.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 선택적 패키지
+tensorboard>=2.13.0  # 학습 로그 시각화
+wandb>=0.15.0  # 실험 추적 (선택)
